@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/main.css">
+  
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"/>
+  
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/9189799d2b.js" crossorigin="anonymous"></script>
+      
+     <!--=============== REMIXICONS ===============-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+     <!--=============== SWIPER CSS ===============-->
+     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+     <!--=============== CSS ===============-->
+     <link rel="stylesheet" href="assets/css/styles.css">	  
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <a class="nav-brand" href="index.html">BicoIn</a>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html">Início</a>
+        </li> 
+        <li class="nav-item">
+          <a href="login.html">Entrar</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Contato</a>
+        </li>
+      </ul>
+  </header><br>
+    <div class="search-container">
+      <select class="custom-select">
+        <option value="" selected disabled >Selecione</option>
+        <option value="jardineiro">Jardineiro</option>
+        <option value="motorista">Motorista</option>
+        <option value="pedreiro">Pedreiro</option>
+    </select>
+      <input type="text" placeholder="Pesquisar Cidades" >
+      <label for="from">De:</label>
+      <input type="date">
+      <label for="to">Até:</label>
+      <input type="date">
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div> <br>
+  
+  <section class="container">
+         <div class="card__container swiper">
+            <div class="card__content">
+               <div class="swiper-wrapper">
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-1.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Kell Dawx</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-2.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Lotw Fox</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-3.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Sara Mit</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-4.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Jenny Wert</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-5.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Lexa Kin</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+               </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+               <i class="ri-arrow-right-s-line"></i>
+            </div>
+            
+            <div class="swiper-button-prev">
+               <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+  
+  <br>
+  <main>
+    <section id="post-modal">
+
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+    <a class="nav-brand-login" href="#">BicoIn</a>
+  </footer>
+</body>
+</html>
